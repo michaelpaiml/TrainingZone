@@ -1,0 +1,123 @@
+@charset "utf-8";
+.logo img {
+	width: 25%;
+	margin: auto;
+}
+
+.nav {
+	color: white;
+	font-family: Segoe, Segoe UI, DejaVu Sans, Trebuchet MS, Verdana," sans-serif";
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: auto;
+	width: 75%;
+	padding: 0% 12.7%;
+    overflow: hidden;
+    background-color: blue;
+}
+
+.nav li {
+    float: left;
+}
+
+.nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    background-color: white;
+	color: blue;
+}
+
+.button {
+  border-radius: 20px;
+  background-color: orange;
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  padding: 20px;
+  width: 500px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5% auto;
+  display: block;
+  
+}
+
+.button span1 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span1:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: -2px;
+  right: -25px;
+  transition: 0.5s;
+}
+
+.button:hover span1 {
+  padding-right: 25px;
+}
+
+.button:hover span1:after {
+  opacity: 1;
+  right: 0;
+}
+
+.button:active {
+  background-color: green;
+  box-shadow: 0 7px dimgray;
+  transform: translateY(20px);
+}
+
+span {
+	color: blue;
+	font-size: 30px;
+}
+
+body {
+	font-family: Gotham, Helvetica Neue, Helvetica, Arial," sans-serif";
+	font-size: 18px;
+}
+
+.para {
+	margin: auto;
+	width: 70%;
+}
+.para img{
+	width: 100%;
+}
+
+span2 {
+	font-style: italic;
+	color: blue;
+}
+
+.footer {
+    width:100%;
+    margin: auto;
+	text-align:center;
+	background-color: blue;
+	color: white;
+}
+
+.footer a {
+	color: white;
+}
+
+.inparaimg img {
+	width: 48%;
+	height: 48%;
+}
